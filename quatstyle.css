@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px black;
+}
+
+#food-order-assessment {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #c45959;
+    border-radius: 5px;
+    background-image: url(https://img.freepik.com/free-photo/top-view-fresh-vegetables-white-background_140725-76670.jpg?size=626&ext=jpg&uid=R120684005&ga=GA1.2.126304020.1696686772&semt=ais);
+    background-size: cover;
+    opacity: 5px;
+}
+    
+
+.question {
+    margin: 10px 0;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+input[type="radio"], input[type="number"], textarea {
+    margin: 5px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
