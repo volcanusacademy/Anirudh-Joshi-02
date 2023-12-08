@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Food Ordering Assessment</title>
+    <link rel="stylesheet" href="quatstyle.css">
+</head>
+<body>
+    <h1>.....Food Ordering Assessment.....</h1>
+
+    <form id="food-order-assessment" action="Thankyou.html">
+        <div class="question">
+            <p>1. What type of cuisine are you in the mood for?</p>
+            <input type="radio" name="cuisine" id="italian food" value="Italian">
+            <label for="italian">Italian food</label>
+            <input type="radio" name="cuisine" id="indian food" value="Indian">
+            <label for="italian">Indian food</label>
+            <input type="radio" name="cuisine" id="mexican food" value="Mexican">
+            <label for="mexican">Mexican food</label>
+            <input type="radio" name="cuisine" id="chinese food" value="Chinese">
+            <label for="chinese">Chinese food</label>
+        </div>
+
+        <div class="question">
+            <p>2. How spicy do you like your food?</p>
+            <input type="radio" name="spiciness" id="mild" value="Mild">
+            <label for="mild">very low</label>
+            <input type="radio" name="spiciness" id="medium" value="Medium">
+            <label for="medium">Medium spicy</label>
+            <input type="radio" name="spiciness" id="spicy" value="Spicy">
+            <label for="spicy">Spicy</label>
+        </div>
+
+        <div class="question">
+            <p>3. Choose a food item you'd like to order.</p>
+            <input type="radio" name="food" id="burger">
+            <label for="burger">Burger</label>
+            <input type="radio" name="food" id="daal bati">
+            <label for="burger">Daal Bati</label>
+            <input type="radio" name="food" id="pizza">
+            <label for="pizza">Pizza</label>
+            <input type="radio" name="food" id="pasta">
+            <label for="pasta">Pasta</label>
+            <input type="radio" name="food" id="noodles">
+            <label for="sushi">noodles</label>
+        </div>
+
+        <div class="question">
+            <p>4. How many servings do you want to order?</p>
+            <input type="number" name="servings" id="servings" min="1">
+        </div>
+
+        <div class="question">
+            <p>5. Any specific dietary preferences or allergies?</p>
+            <textarea name="dietary-preferences" id="dietary-preferences" rows="3" cols="50"></textarea>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
